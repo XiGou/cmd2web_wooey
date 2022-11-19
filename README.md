@@ -7,5 +7,5 @@ docker build -f Dockerfile --target wooey_ui -t cmd2web_wooey .
 
 # Run
 ```
-docker run -d -p 8009:8000 cmd2web_wooey:latest
+docker run -d -p 8000:8000 cmd2web_wooey:latest
 ```
